@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21EA5C261BB8C2880062A8E1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21EA5C251BB8C2880062A8E1 /* main.cpp */; };
+		21EA5C351BB8C4D20062A8E1 /* LinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21EA5C2D1BB8C4D20062A8E1 /* LinkedList.cpp */; settings = {ASSET_TAGS = (); }; };
+		21EA5C361BB8C4D20062A8E1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21EA5C301BB8C4D20062A8E1 /* main.cpp */; settings = {ASSET_TAGS = (); }; };
+		21EA5C371BB8C4D20062A8E1 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21EA5C311BB8C4D20062A8E1 /* Node.cpp */; settings = {ASSET_TAGS = (); }; };
+		21EA5C381BB8C4D20062A8E1 /* PrecondViolatedExcep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21EA5C331BB8C4D20062A8E1 /* PrecondViolatedExcep.cpp */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +27,14 @@
 
 /* Begin PBXFileReference section */
 		21EA5C221BB8C2880062A8E1 /* Playlist-LinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Playlist-LinkedList"; sourceTree = BUILT_PRODUCTS_DIR; };
-		21EA5C251BB8C2880062A8E1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		21EA5C2D1BB8C4D20062A8E1 /* LinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedList.cpp; sourceTree = "<group>"; };
+		21EA5C2E1BB8C4D20062A8E1 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		21EA5C2F1BB8C4D20062A8E1 /* ListInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListInterface.h; sourceTree = "<group>"; };
+		21EA5C301BB8C4D20062A8E1 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		21EA5C311BB8C4D20062A8E1 /* Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
+		21EA5C321BB8C4D20062A8E1 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		21EA5C331BB8C4D20062A8E1 /* PrecondViolatedExcep.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PrecondViolatedExcep.cpp; sourceTree = "<group>"; };
+		21EA5C341BB8C4D20062A8E1 /* PrecondViolatedExcep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrecondViolatedExcep.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +67,14 @@
 		21EA5C241BB8C2880062A8E1 /* Playlist-LinkedList */ = {
 			isa = PBXGroup;
 			children = (
-				21EA5C251BB8C2880062A8E1 /* main.cpp */,
+				21EA5C2D1BB8C4D20062A8E1 /* LinkedList.cpp */,
+				21EA5C2E1BB8C4D20062A8E1 /* LinkedList.h */,
+				21EA5C2F1BB8C4D20062A8E1 /* ListInterface.h */,
+				21EA5C301BB8C4D20062A8E1 /* main.cpp */,
+				21EA5C311BB8C4D20062A8E1 /* Node.cpp */,
+				21EA5C321BB8C4D20062A8E1 /* Node.h */,
+				21EA5C331BB8C4D20062A8E1 /* PrecondViolatedExcep.cpp */,
+				21EA5C341BB8C4D20062A8E1 /* PrecondViolatedExcep.h */,
 			);
 			path = "Playlist-LinkedList";
 			sourceTree = "<group>";
@@ -118,7 +135,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21EA5C261BB8C2880062A8E1 /* main.cpp in Sources */,
+				21EA5C371BB8C4D20062A8E1 /* Node.cpp in Sources */,
+				21EA5C381BB8C4D20062A8E1 /* PrecondViolatedExcep.cpp in Sources */,
+				21EA5C361BB8C4D20062A8E1 /* main.cpp in Sources */,
+				21EA5C351BB8C4D20062A8E1 /* LinkedList.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
